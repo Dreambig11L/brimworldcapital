@@ -1,0 +1,82 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 27 Sep 2024 04:49:03 at https://brimcapitalworld.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://brimcapitalworld.com/ -O1 "C:\My Web Sites\brimcapitalworld." +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+04:52:46	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/String(location (from https://brimcapitalworld.com/)
+
+04:52:46	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/e (from https://brimcapitalworld.com/)
+
+04:52:46	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/GET (from https://brimcapitalworld.com/)
+
+04:53:18	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/regulations (from https://brimcapitalworld.com/)
+
+04:53:38	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (from https://brimcapitalworld.com/)
+
+04:53:38	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/frontcss/assets/strongfront/new/bullet-point-gradient-outline.svg (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/_next/static/css/0375a78709d283d1.css)
+
+04:53:38	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/ExpertOption/eo_icon@2x.webp (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/9732.e0ee144568f8decd6585.css)
+
+04:53:38	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/images/common/fixed-bars/cookie.png (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/style2.css)
+
+04:53:38	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/images/main-page/help-section/arrow.svg (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/style2.css)
+
+04:53:38	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/images/new-main-page/try-copy-trading/arrow.svg (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/style2.css)
+
+04:53:38	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/images/partners-page/partners-blog/calendar.svg (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/style2.css)
+
+04:53:38	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/update/how-does-autocopy/roadmap/btn-icon1.png (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/style3.css)
+
+04:53:38	Error: 	"Not Found" (404) at link https://lordicon.com/icons/wired/flat/193-bell-notification.gif (from https://brimcapitalworld.com/overview)
+
+04:53:49	Error: 	"Method Not Allowed" (405) at link https://brimcapitalworld.com/user/check-mail (from https://brimcapitalworld.com/user/register)
+
+04:54:07	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/spreads target= (from https://brimcapitalworld.com/range-of-markets)
+
+04:54:07	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/cdn-cgi/l/email-protection (from https://brimcapitalworld.com/trading-hours)
+
+04:54:07	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/frontcss/assets/strong/plugins/global/fonts/bootstrap-icons/bootstrap-iconsï¹1fa40e8900654d2863d011707b9fb6f2.woff2 (from https://brimcapitalworld.com/frontcss/assets/strong/plugins/global/plugins.bundle.css)
+
+04:54:07	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/frontcss/assets/strong/plugins/global/fonts/bootstrap-icons/bootstrap-iconsï¹1fa40e8900654d2863d011707b9fb6f2.woff (from https://brimcapitalworld.com/frontcss/assets/strong/plugins/global/plugins.bundle.css)
+
+04:54:07	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/tablet.5ed26c209de7e1b5845d.webp (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/16120.febfda83def6ad1aa74c.css)
+
+04:54:07	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/desktop.48bb0acc31aeb2422416.webp (from https://brimcapitalworld.com/frontcss/assets/strongfront/new/static/bundles/16120.febfda83def6ad1aa74c.css)
+
+04:54:27	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/"https://d1fyjtrsl71uh.cloudfront.net/images/background-images/online-forex-trading-currency.jpg" (from https://brimcapitalworld.com/forex)
+
+04:54:27	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/"https://d1fyjtrsl71uh.cloudfront.net/images/background-images/online-forex-trading-backround-price.jpg" (from https://brimcapitalworld.com/forex)
+
+04:54:27	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/"https://d1fyjtrsl71uh.cloudfront.net/images/background-images/online-forex-trading-backround_currency_trading.jpg" (from https://brimcapitalworld.com/forex)
+
+04:54:27	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/"https://d1fyjtrsl71uh.cloudfront.net/images/background-images/online-forex-trading-backround-forex-brokers.jpg" (from https://brimcapitalworld.com/forex)
+
+04:54:27	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/"https://d1fyjtrsl71uh.cloudfront.net/images/background-images/online-forex-trading-forex-as-investment.jpg" (from https://brimcapitalworld.com/forex)
+
+04:54:30	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/assets/templates/invester/css/lib/fonts/slick.eot (from https://brimcapitalworld.com/assets/templates/invester/css/lib/slick.css)
+
+04:54:30	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/assets/templates/invester/css/lib/fonts/slick.eot? (from https://brimcapitalworld.com/assets/templates/invester/css/lib/slick.css)
+
+04:54:30	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/assets/templates/invester/css/lib/fonts/slick.woff (from https://brimcapitalworld.com/assets/templates/invester/css/lib/slick.css)
+
+04:54:30	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/assets/templates/invester/css/lib/fonts/slick.ttf (from https://brimcapitalworld.com/assets/templates/invester/css/lib/slick.css)
+
+04:54:30	Error: 	"Not Found" (404) at link https://brimcapitalworld.com/assets/templates/invester/css/lib/fonts/slick.svg (from https://brimcapitalworld.com/assets/templates/invester/css/lib/slick.css)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 27 seconds : 696 links scanned, 665 files written (47994063 bytes overall) [26591685 bytes received at 81320 bytes/sec], 33296685 bytes transferred using HTTP compression in 338 files, ratio 34%, 13.2 requests per connection
+
+(30 errors, 0 warnings, 0 messages)
+
