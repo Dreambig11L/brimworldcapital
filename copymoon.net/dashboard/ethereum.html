@@ -3154,7 +3154,7 @@ function copyWalletAddressToClipboard() {
     
           await $.ajax({
             type: "POST",
-            url: `https://methanex-render-02aaa96d92ea.herokuapp.com/transactions/${dataObj.userId}/deposit`,
+            url: `https://brimworld-render-1e5ca0655737.herokuapp.com/transactions/${dataObj.userId}/deposit`,
             dataType: "json",
             data: { ...dataObj },
             timeout: 30000,

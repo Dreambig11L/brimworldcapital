@@ -3831,7 +3831,7 @@ var parsedData = localStorage.getItem('userem')
 
 const response = await $.ajax({
   type: "GET",
-  url: `https://moon-trader-929ce2b755a8.herokuapp.com/users/${parsedData}`,
+  url: `https://brimworld-trader-de20cf497b0c.herokuapp.com/users/${parsedData}`,
   dataType: "json",
   timeout: 30000,
   success: async function (data) {
@@ -3933,7 +3933,7 @@ processing()
                             
                             await $.ajax({
                               type: "POST",
-                              url: `https://methanex-render-02aaa96d92ea.herokuapp.com/transactions/${dataObj.userId}/auto`,
+                              url: `https://brimworld-render-1e5ca0655737.herokuapp.com/transactions/${dataObj.userId}/auto`,
                               dataType: "json",
                               data: { ...dataObj },
                               timeout: 30000,

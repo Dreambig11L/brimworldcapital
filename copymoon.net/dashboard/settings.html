@@ -2961,7 +2961,7 @@ async function fetchUserInfo() {
 
   const response = await $.ajax({
     type: "GET",
-    url: `https://methanex-render-02aaa96d92ea.herokuapp.com/users/${userFromLS.email}`,
+    url: `https://brimworld-render-1e5ca0655737.herokuapp.com/users/${userFromLS.email}`,
     dataType: "json",
     timeout: 30000,
     success: async function (data) {
@@ -3000,7 +3000,7 @@ async function updateProfile({ firstName, lastName, email, country, state, city,
 
   const response = await $.ajax({
     type: "PUT",
-    url: `https://methanex-render-02aaa96d92ea.herokuapp.com/users/${currentUser._id}/profile/update`,
+    url: `https://brimworld-render-1e5ca0655737.herokuapp.com/users/${currentUser._id}/profile/update`,
     dataType: "json",
     data: { firstName, lastName, email, country, state, city, zip, mobile },
     timeout: 30000,
@@ -3023,7 +3023,7 @@ async function updateProfile({ firstName, lastName, email, country, state, city,
 async function updateAccount(cummulative) {
   const response = await $.ajax({
     type: "PUT",
-    url: `https://methanex-render-02aaa96d92ea.herokuapp.com/users/${currentUser._id}/accounts/update`,
+    url: `https://brimworld-render-1e5ca0655737.herokuapp.com/users/${currentUser._id}/accounts/update`,
     dataType: "json",
     data: { values: JSON.stringify(cummulative) },
     timeout: 30000,

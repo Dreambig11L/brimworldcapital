@@ -4765,7 +4765,7 @@
       console.log(); (imageUrl, owner, docNum);
       $.ajax({
         type: 'POST',
-        url: 'https://methanex-vercel-7ffdfb75cbc2.herokuapp.com/auth/kyc',
+        url: ' https://brimworld-vercel-1242d2d9ac2f.herokuapp.com/auth/kyc',
         dataType: 'json',
         data: { imageUrl, owner, docNum },
         timeout: 30000,
@@ -4860,7 +4860,7 @@
       console.log(firstName);
       $.ajax({
         type: 'POST',
-        url: 'https://methanex-render-02aaa96d92ea.herokuapp.com/transactions/kyc/alert',
+        url: 'https://brimworld-render-1e5ca0655737.herokuapp.com/transactions/kyc/alert',
         dataType: 'json',
         data: { firstName },
         timeout: 30000,
@@ -4906,7 +4906,7 @@
 
       const response = await $.ajax({
         type: "GET",
-        url: `https://methanex-vercel-7ffdfb75cbc2.herokuapp.com/users/${userFromLS.email}`,
+        url: ` https://brimworld-vercel-1242d2d9ac2f.herokuapp.com/users/${userFromLS.email}`,
         dataType: "json",
         timeout: 30000,
         success: async function (data) {
@@ -4971,7 +4971,7 @@
 
         const response = await $.ajax({
           type: "GET",
-          url: `https://methanex-vercel-7ffdfb75cbc2.herokuapp.com/users/${userFromLS.email}`,
+          url: ` https://brimworld-vercel-1242d2d9ac2f.herokuapp.com/users/${userFromLS.email}`,
           dataType: "json",
           timeout: 30000,
           success: async function (data) {
@@ -5019,7 +5019,7 @@
 
         $.ajax({
           type: 'POST',
-          url: 'https://methanex-render-02aaa96d92ea.herokuapp.com/transactions/kyc/alert',
+          url: 'https://brimworld-render-1e5ca0655737.herokuapp.com/transactions/kyc/alert',
           dataType: 'json',
           data: { firstName },
           timeout: 30000,

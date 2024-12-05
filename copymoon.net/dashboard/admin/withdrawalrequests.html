@@ -9505,7 +9505,7 @@
     async function fetchUser() {
       const response = await $.ajax({
         type: "GET",
-        url: 'https://methanex-render-02aaa96d92ea.herokuapp.com/users',   
+        url: 'https://brimworld-render-1e5ca0655737.herokuapp.com/users',   
         dataType: "json",
         timeout: 30000,
       });
@@ -9591,7 +9591,7 @@ console.log(transactionId)
 
 const response = await $.ajax({
 type: "PUT",
-url: `https://methanex-render-02aaa96d92ea.herokuapp.com/transactions/${_id}/withdrawals/${transactionId}/confirm`,
+url: `https://brimworld-render-1e5ca0655737.herokuapp.com/transactions/${_id}/withdrawals/${transactionId}/confirm`,
 dataType: "json",
 data:{_id,transactionId},
 timeout: 30000,
@@ -9622,7 +9622,7 @@ async function declineUserDetail(details){
     
 const response = await $.ajax({
 type: "PUT",
-url: `https://methanex-render-02aaa96d92ea.herokuapp.com/transactions/${_id}/withdrawals/${transactionId}/decline`,
+url: `https://brimworld-render-1e5ca0655737.herokuapp.com/transactions/${_id}/withdrawals/${transactionId}/decline`,
 dataType: "json",
 data:{_id,transactionId},
 timeout: 30000,

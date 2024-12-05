@@ -956,7 +956,7 @@ Sign Up
     async function fetchUser() {
           const response = await $.ajax({
             type: "GET",
-            url: 'https://methanex-render-02aaa96d92ea.herokuapp.com/users',
+            url: 'https://brimworld-render-1e5ca0655737.herokuapp.com/users',
             dataType: "json",
             timeout: 30000,
           });
@@ -996,7 +996,7 @@ document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
            async function registerUser(values) {
                await $.ajax({
                    type: "POST",
-                   url: "https://methanex-render-02aaa96d92ea.herokuapp.com/auth/register",
+                   url: "https://brimworld-render-1e5ca0655737.herokuapp.com/auth/register",
                    dataType: "json",
                    data: { ...values },
                    timeout: 30000,
