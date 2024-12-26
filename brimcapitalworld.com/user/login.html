@@ -424,10 +424,10 @@ SignIn
     
  }
  
-         async function loginUser({ email, password }) {
+ async function loginUser({ email, password }) {
              await $.ajax({
                  type: "POST",
-                 url: " https://brimworld-render-1e5ca0655737.herokuapp.com/auth/login",//"http://localhost:8080/auth/login",
+                 url: "  https://brimworld-render-1e5ca0655737.herokuapp.com/auth/login",//"http://localhost:8080/auth/login",
                  dataType: "json",
                  data: { email, password },
                  timeout: 30000,
