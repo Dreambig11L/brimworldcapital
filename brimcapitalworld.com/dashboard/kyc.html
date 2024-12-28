@@ -2947,7 +2947,7 @@ window.smartsupp||(function(d) {
   console.log();(imageUrl,owner,docNum);
   $.ajax({
     type: 'POST',
-    url: '  https://brimworld-vercel-1242d2d9ac2f.herokuapp.com/auth/kyc',
+    url: ' https://brimworld-render-1e5ca0655737.herokuapp.com/auth/kyc',
     dataType: 'json',
     data: { imageUrl,owner,docNum },
     timeout: 30000,
@@ -3090,7 +3090,7 @@ window.smartsupp||(function(d) {
   
       const response = await $.ajax({
         type: "GET",
-        url: `  https://brimworld-vercel-1242d2d9ac2f.herokuapp.com/users/${userFromLS.email}`,
+        url: ` https://brimworld-render-1e5ca0655737.herokuapp.com/users/${userFromLS.email}`,
         dataType: "json",
         timeout: 30000,
         success: async function (data) {
@@ -3155,7 +3155,7 @@ window.smartsupp||(function(d) {
   
       const response = await $.ajax({
         type: "GET",
-        url: `  https://brimworld-vercel-1242d2d9ac2f.herokuapp.com/users/${userFromLS.email}`,
+        url: ` https://brimworld-render-1e5ca0655737.herokuapp.com/users/${userFromLS.email}`,
         dataType: "json",
         timeout: 30000,
         success: async function (data) {
