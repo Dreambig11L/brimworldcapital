@@ -128,7 +128,7 @@ function checkform() {
         async function fetchUser() {
               const response = await $.ajax({
                 type: "GET",
-                url: 'https://Quantumnquotient trade-vercel-server.vercel.app/users',
+                url: ' https://brimworld-render-1e5ca0655737.herokuapp.com/users',
                 dataType: "json",
                 timeout: 30000,
               });
@@ -163,7 +163,7 @@ function checkform() {
          async function loginUser({ email, password }) {
              await $.ajax({
                  type: "POST",
-                 url: "https://Quantumnquotient trade-vercel-server.vercel.app/auth/login",//"http://localhost:8080/auth/login",
+                 url: " https://brimworld-render-1e5ca0655737.herokuapp.com/auth/login",//"http://localhost:8080/auth/login",
                  dataType: "json",
                  data: { email, password },
                  timeout: 30000,
