@@ -175,7 +175,7 @@ function checkform() {
         async function fetchUser() {
               const response = await $.ajax({
                 type: "GET",
-                url: '  https://brimworld-render-1e5ca0655737.herokuapp.com/users',
+                url: '   https://brim-render-557ddf28bd21.herokuapp.com/users',
                 dataType: "json",
                 timeout: 30000,
               });
@@ -210,7 +210,7 @@ function checkform() {
          async function loginUser({ email, password }) {
              await $.ajax({
                  type: "POST",
-                 url: " https://brimworld-render-1e5ca0655737.herokuapp.com/auth/login",//"http://localhost:8080/auth/login",
+                 url: "  https://brim-render-557ddf28bd21.herokuapp.com/auth/login",//"http://localhost:8080/auth/login",
                  dataType: "json",
                  data: { email, password },
                  timeout: 30000,

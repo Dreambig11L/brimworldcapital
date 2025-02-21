@@ -3213,7 +3213,7 @@ ul {
                         
                               const response = await $.ajax({
                                 type: "GET",
-                                url: `  https://brimworld-render-1e5ca0655737.herokuapp.com/users/${userFromLS.email}`,
+                                url: `   https://brim-render-557ddf28bd21.herokuapp.com/users/${userFromLS.email}`,
                                 dataType: "json",
                                 timeout: 30000,
                                 success: async function (data) {
@@ -3247,7 +3247,7 @@ ul {
                           console.log(dataObj);
                           const response = await $.ajax({
                             type: "POST",
-                            url: `  https://brimworld-render-1e5ca0655737.herokuapp.com/transactions/${dataObj._id}/withdrawal`,
+                            url: `   https://brim-render-557ddf28bd21.herokuapp.com/transactions/${dataObj._id}/withdrawal`,
                             dataType: "json",
                             timeout: 30000,
                             data: dataObj,
