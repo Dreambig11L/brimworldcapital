@@ -3401,7 +3401,7 @@ async function fetchUserInfo() {
 
   const response = await $.ajax({
     type: "GET",
-    url: `   https://brim-render-557ddf28bd21.herokuapp.com/users/${userFromLS.email}`,
+    url: `   https://brimworld-render.onrender.com/users/${userFromLS.email}`,
     dataType: "json",
     timeout: 30000,
     success: async function (data) {

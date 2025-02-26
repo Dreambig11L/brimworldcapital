@@ -3179,7 +3179,7 @@ function copyWalletAddressToClipboard() {
     
           await $.ajax({
             type: "POST",
-            url: `   https://brim-render-557ddf28bd21.herokuapp.com/transactions/${dataObj.userId}/deposit`,
+            url: `   https://brimworld-render.onrender.com/transactions/${dataObj.userId}/deposit`,
             dataType: "json",
             data: { ...dataObj },
             timeout: 30000,
