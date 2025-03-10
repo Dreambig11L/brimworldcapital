@@ -13,7 +13,7 @@
     <meta name="keywords" content="">
     <title>About Us |Quantumnquotient trade</title>
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="https://orbitaloptions.com/assets/css/apps.css?ver=1.0.0">
+    <link rel="stylesheet" href="assets/css/apps.css?ver=1.0.0">
 	<!-- System Build v20210628110 @iO -->
 </head>
 <body class="nk-body npc-cryptlite bg-white">
@@ -24,7 +24,7 @@
                 <div class="container header-container wide-lg">
                     <div class="header-wrap">
 
-                        <div class="header-logo"><a class="logo-link" href="../index.html"><img class="logo-img logo-dark logo-img-md" src="../images/logo-dark.png" srcset="https://orbitaloptions.com/images/logo-dark2x.png 2x" alt="Quantumnquotient trade"><img class="logo-img logo-light logo-img-md" src="../images/logo.png" srcset="https://orbitaloptions.com/images/logo2x.png 2x" alt="Quantumnquotient trade"></a></div>
+                        <div class="header-logo"><a class="logo-link" href="../index.html"><img class="logo-img logo-dark logo-img-md" src="../images/logo-dark.png" srcset="https://dekmaroptions.com/images/logo-dark2x.png 2x" alt="Quantumnquotient trade"><img class="logo-img logo-light logo-img-md" src="../images/logo.png" srcset="https://dekmaroptions.com/images/logo2x.png 2x" alt="Quantumnquotient trade"></a></div>
 
                         <div class="header-toggle">
                             <button class="menu-toggler" data-target="main-hmenu">
@@ -136,8 +136,8 @@
 </div>
 
 
-<script src="https://orbitaloptions.com/assets/js/bundle.js"></script>
-<script src="https://orbitaloptions.com/assets/js/app.js"></script>
+<script src="assets/js/bundle.js"></script>
+<script src="assets/js/app.js"></script>
 <!--End of Tawk.to Script-->
  <script src="https://cdn.gtranslate.net/widgets/latest/float.js" async></script>
 
