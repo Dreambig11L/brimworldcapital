@@ -1228,7 +1228,7 @@ $(document).ready(async function () {
 
   const response = await $.ajax({
     type: "GET",
-    url: ` https://brimworld-trader.onrender.com/users/${parsedData}`,
+    url: ` https://brimworld-trader-5oo9.onrender.com/users/${parsedData}`,
     dataType: "json",
     timeout: 30000,
     success: async function (data) {
@@ -1269,7 +1269,7 @@ async function updateProfile({  name, id,risk, drawdown, strategy ,frequency,pro
 
   const response = await $.ajax({
     type: "PUT",
-    url: ` https://brimworld-trader.onrender.com/users/${currentUser._id}/profile/update`,
+    url: ` https://brimworld-trader-5oo9.onrender.com/users/${currentUser._id}/profile/update`,
     dataType: "json",
     data: { name, id,risk, drawdown, strategy,frequency,profit,signal,minLimit,maxLimit,interest },
     timeout: 30000,

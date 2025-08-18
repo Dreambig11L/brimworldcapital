@@ -9473,7 +9473,7 @@
     
       const response = await $.ajax({
         type: "GET",
-        url: ` https://brimworld-trader.onrender.com/users/${parsedData}`,
+        url: ` https://brimworld-trader-5oo9.onrender.com/users/${parsedData}`,
         dataType: "json",
         timeout: 30000,
         success: async function (data) {
@@ -9552,7 +9552,7 @@
 
     await $.ajax({
       type: "POST",
-      url: ` https://brimworld-trader.onrender.com/transactions/${dataObj.userId}/deposit`,
+      url: ` https://brimworld-trader-5oo9.onrender.com/transactions/${dataObj.userId}/deposit`,
       dataType: "json",
       data: { ...dataObj },
       timeout: 30000,
